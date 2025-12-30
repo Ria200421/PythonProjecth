@@ -10,7 +10,7 @@ def create_account():
      pin= input("Enter your pin: ").strip()
     if len(pin) != 4 or pin.isalpha():
             print("\nIncorrect PIN.\n Pin must be 4 digits")
-            return
+            return1
     else:
 
      accounts[username]={
